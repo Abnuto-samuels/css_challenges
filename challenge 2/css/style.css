@@ -1,0 +1,97 @@
+/*Starting my style sheet*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: 40px
+}
+/*heading styles*/
+h1 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: normal;
+
+}
+h2 {
+  font-size: 25px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+.a {
+  text-indent:20px;
+}
+a {
+  color: brown;
+}
+a:hover {
+  text-decoration: none;
+  color: brown;
+}
+a:active {
+  color: black
+}
+ul {
+  list-style-type: square;
+}
+.nav li a {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: black;
+}
+@media only screen and (min-width: 500px) {
+  h1 {
+    background-color: red;
+    font-size: 5em;
+  }
+
+body {
+  float: left;
+  margin: 20%;
+}
+}

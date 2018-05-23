@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.para {
+  color: red;
+}
+
+.para:hover {
+  background-color: black;
+}
+
+a {
+  color: orange;
+  font-size: 30px;
+}
+
+a:active {
+  background-color: green;
+  color: white;
+}
+
+a:visited {
+  color: blue;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1;
+}
+button {
+  border-radius: 50%
+}
+#container{
+  border-style: solid;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  margin-left: 45%;
+  border-radius: 50%;
+}
+form div label {
+  font-size: 25px;
+}
+
+form div label {
+  font-size: 25px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
